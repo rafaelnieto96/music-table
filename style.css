@@ -1,0 +1,49 @@
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto 100px auto;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block; /* Display as inline block */
+}
+
+.new-btn {
+    margin-top: 20px; /* Adjust the margin */
+    margin-right: 20px; /* Adjust the margin */
+    float: right;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+    th, td {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
