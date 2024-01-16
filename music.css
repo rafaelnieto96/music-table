@@ -1,17 +1,8 @@
-/* .audio-player{
-position: absolute;
-bottom:0;
-} */
-
 .container-audio {
-    width: 66%;
-    height: auto;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #eee;
+    width: 66%;  
+    background-color: rgba(13, 29, 49, 0.8);
     color: #444;
     margin: 20px auto;
-    overflow: hidden;
 }
 
 audio {
