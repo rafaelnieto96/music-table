@@ -104,3 +104,9 @@ button:hover i::after {
         box-shadow: #27272c;
     }
 }
+
+@media (max-width: 777px) {
+    .delete-btn {
+        margin-top: 10px;
+    }
+}
